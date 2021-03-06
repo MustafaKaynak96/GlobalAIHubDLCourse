@@ -60,3 +60,8 @@ import cv2
 cap = cv2.VideoCapture(0)
 cap.set(3,640) # set Width
 cap.set(4,480) # set Height
+
+#type 5 calling text file
+text_url= 'https://raw.githubusercontent.com/Belval/TextRecognitionDataGenerator/master/requirements.txt'
+file_text= open(text_url,'r')
+file_text.close()
