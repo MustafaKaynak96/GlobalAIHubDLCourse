@@ -33,6 +33,7 @@ x1= database.sepal_length
 x2=database.sepal_width
 axis= np.arange(len(x1))
 plt.scatter(axis,x1,color='red')
+
 plt.show()
 plt.scatter(axis,x2,color='blue')
 plt.show()
